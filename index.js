@@ -8,7 +8,7 @@ var arquivoFoto = document.querySelector("#exampleInputFile");
 var admin = document.querySelector("#exampleInputAdmin");*/
 /// fields = campos
 var fields = document.querySelectorAll("#form-user-create [name]");
-var user = {};
+var user = {};//jason
 document.getElementById("form-user-create").addEventListener("submit",function(event){
     event.preventDefault();
 
